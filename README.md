@@ -26,7 +26,7 @@ Set Dota to **Borderless Window** if you want the overlay drawn on top.
 Rune Clock can watch this repository and tell you when a new build is out.
 In Settings → Updates, switch **Check for updates** on and use this link:
 
-    https://api.github.com/repos/OWNER/REPO/releases/latest
+    https://api.github.com/repos/RButtDev/rune-clock-releases/releases/latest
 
 It reads the release info once a day, shows a banner when there's something
 newer, and never downloads anything by itself.
