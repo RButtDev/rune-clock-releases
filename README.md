@@ -23,12 +23,14 @@ Set Dota to **Borderless Window** if you want the overlay drawn on top.
 
 ## Updates
 
-Rune Clock can watch this repository and tell you when a new build is out.
-In Settings → Updates, switch **Check for updates** on and use this link:
+From 1.6.0, Rune Clock keeps itself up to date. Each time it opens (and every
+few hours while it runs) it looks at the latest release here, downloads the new
+`RuneClock.exe`, checks it against the SHA-256 published with the release, and
+restarts into it. It never restarts during a match; a download that arrives
+mid-game waits until the match is over.
 
-    https://api.github.com/repos/RButtDev/rune-clock-releases/releases/latest
-
-It reads the release info once a day, shows a banner when there's something
-newer, and never downloads anything by itself.
+You can turn this off in Settings → Updates and get a banner with a Download
+button instead. Copies older than 1.6.0 can't update themselves, so download
+1.6.0 once by hand.
 
 This repository holds the downloads only; the source lives elsewhere.
