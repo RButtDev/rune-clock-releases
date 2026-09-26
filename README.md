@@ -35,13 +35,12 @@ button instead. Copies older than 1.6.0 can't update themselves, so download
 
 ## Builds tab
 
-From 1.8.0 the **Builds** tab shows, for any hero and position: starting items,
-the most common skill order for levels 1–10, talent pick and win rates, and
-core items with the minute they're usually finished. The numbers come from
-[STRATZ](https://stratz.com) (Legend rank and above, this week) and the icons
-from Valve. It switches to the hero you're playing when a match starts.
-
-The app downloads the data from the **Hero builds data** release here twice a
-day. That release is data, not an app version, so it never counts as an update.
+The **Builds** tab shows, for any hero and position: starting items, the most
+common skill order for levels 1–10, talent pick and win rates, and core items
+with the minute they're usually finished. The numbers come straight from
+[STRATZ](https://stratz.com) (this week's games; pick the ranks in Settings →
+Builds, Legend and above by default), and the icons and talent names from
+Valve. It switches to the hero you're playing when a match starts. No account
+needed.
 
 This repository holds the downloads only; the source lives elsewhere.
